@@ -1,0 +1,212 @@
+.greatest{
+    display: flex;
+    background: #161616;
+    border-radius: 30px;
+    color: aliceblue;
+    width: 80%;
+    margin-top: 40px;
+    margin-left: 140px;
+    height: 80vh;
+}
+
+.greatest .great1{
+    width: 40%;
+}
+
+.greatest .great1{
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-left: 30px;
+
+}
+
+.greatest .great1 p{
+    font-size: 1rem;
+
+}
+
+.button{
+    width: 90px;
+    height: 30px;
+    background: #DD0000;
+    border-radius: 5px;
+}
+
+
+    .btn{
+       display: none;
+    }
+
+
+.button:hover{
+    transform: scale(1.5);
+    transition: .4s;
+    border-radius: 10%;
+
+}
+.greatest .great2{
+    width: 60%;
+}
+
+.greatest .great2 img{
+    width: 75%;
+}
+
+.menu  .div{
+    background: #161616;
+border-radius: 10px;
+color: aliceblue;
+padding: 30px;
+margin-left: 140px;
+
+margin-top: 85px;
+width: 55%;
+
+
+}
+
+.menu .div h1{
+    background-color: aliceblue;
+    color: #161616;
+    width:16rem;
+    height: 18px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.second{
+    display: flex;
+}
+.transfer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 90px;
+    
+}
+
+.transfer .div2{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+
+    border-radius: .5rem;
+    padding:2rem; 
+    row-gap: 2rem;
+}
+
+
+.transfer .div2 i{
+    padding: 10px;
+}
+
+.lastdiv{
+ display: grid;
+    justify-content: center;
+    
+background: #161616;
+height: 240px;
+
+   
+
+}
+
+.lastdiv h1{
+    display: grid;
+       justify-content: center;
+       align-items: center;
+       color: aliceblue;
+       
+      
+   
+   }
+hr{
+    border: 2px solid gray;
+  
+  
+}
+.lastdiv .last{
+
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+
+.lastdiv .last h3{
+    margin: 8px;
+    color: aliceblue;
+}
+
+
+
+@media (max-width:950px){
+
+    html{
+        font-size: 80%;
+    }
+
+    .second{
+display: flex;
+flex-direction: column;
+
+
+    }
+
+    .menu .div h1{
+       
+            background-color: honeydew;
+            color: #161616;
+            width:9rem;
+            height: 18px;
+            padding: 10px;
+            border-radius: 10px;
+            display: inline;
+            box-shadow: 0 .5rem 1rem rgba(0,0,0,.6);
+            
+        }
+
+        .menu  .div{
+    
+            background-color: white;
+        border-radius: 10px;
+        color: aliceblue;
+        padding: 30px;
+        margin-left: 140px;
+        
+        margin-top: 85px;
+        width: 55%;
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.6);
+        
+        
+        }
+
+        .second{
+            display: flex;
+        }
+        .transfer{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            padding-top: 90px;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        
+        .transfer .div2{
+            box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+            border-radius: .5rem;
+        
+            border-radius: .5rem;
+            padding:2rem; 
+            row-gap: 2rem;
+            padding-left: 2rem;
+            width: 50%;
+          
+        }
+
+        .btn{
+            background-color: #DD0000;
+            color: white;
+        }
+        
+    
+    
+    }
+
